@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Validation du format de l'email avec une expression régulière simple (utilisation de l'IA ici)
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        const emailRegex = /^[^\s@]+@[^\s@]+\.com$/;
         if (!emailRegex.test(email)) {
             errorMessage.textContent = 'Erreur : Le format de l\'email est invalide.';
             return;
